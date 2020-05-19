@@ -5,9 +5,11 @@ from .models import Product
 
 
 class ProductTests(TestCase):
-    """"Here We Will Define The Tests"""
+    """
+    Here we'll define the tests that we'll run against our
+    Product model
+    """
 
-
-def test_str(self):
-    test_name = Product(name='A Product')
-    self. assertEqual(str(test_name), 'A product')
+    def test_str(self):
+        test_name = Product(name='A product')
+        self.assertEqual(str(test_name), 'A product')
