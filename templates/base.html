@@ -45,6 +45,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             {% if user.is_authenticated %}
+            
             <li>
               <a href="{% url 'profile' %}"
                 ><i class="fa fa-user"></i> Account</a
@@ -56,6 +57,11 @@
               >
             </li>
             {% else %}
+            <li>
+              <a href="/"
+                ><i class="fa fa-user"></i> Products</a
+              >
+            </li>
             <li>
               <a href="{% url 'register' %}"
                 ><i class="fa fa-user-plus"></i> Sign Up</a
