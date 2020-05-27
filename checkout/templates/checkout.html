@@ -30,14 +30,14 @@
   {% endfor %}
 </div>
 <div class="row">
-  <p>Total</p>
-  <p>
+  <p class='checkout-text-details'>Total</p>
+  <p class='checkout-text-details'>
     <span class="glyphicon glyphicon-euro" aria-hidden="true"></span>{{ total }}
   </p>
 </div>
 
 <form role="form" method="post" id="payment-form" action="{% url 'checkout' %}">
-  <legend>Payment Details</legend>
+  <legend class ='checkout-text'>Payment Details</legend>
 
   <div id="credit-card-errors" style="display: none;">
     <div
@@ -46,11 +46,11 @@
     ></div>
   </div>
 
-  <div class="form-group col-md-6">
+  <div class=" checkout-text-details form-group col-md-6">
     {{ order_form | as_bootstrap }}
   </div>
 
-  <div class="form-group col-md-6">
+  <div class="checkout-text-details form-group col-md-6">
     {{ payment_form | as_bootstrap }}
   </div>
 
