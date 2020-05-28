@@ -68,6 +68,7 @@
                 ><i class="fa fa-user"></i> Products</a
               >
             </li>
+            
             <li>
               <a href="{% url 'register' %}"
                 ><i class="fa fa-user-plus"></i> Sign Up</a
@@ -122,12 +123,7 @@
       {% block content %} {% endblock %}
     </div>
     <div class="container-fluid">
-      <div class="row footer-content">
-        <div class="col-sm-4 col-md-3 col-lg-4 col-xl-4">
-          <h4 class="footer-header">Contact</h4>
-          <br />
-          <div align='center' id="map"></div>
-        </div>
+      <div class="row footer-content">       
         <div class="col-sm-4 col-md-3 col-lg-4 col-xl-4">
           <h4 class="footer-header">Ways To Shop</h4>
           <br />
@@ -138,12 +134,17 @@
           <a class="ways-to-shop">Winter Sale</a>
           <br />
         </div>
+         <div class="col-sm-4 col-md-3 col-lg-4 col-xl-4">
+          <h4 class="footer-header">Contact</h4>
+          <br />
+          <div align='center' id="map"></div>
+        </div> 
         <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
           <h4 class="footer-header">Follow Us</h4>
           <div class="follow-us">
-            <i class="icon-instagram fa fa-instagram"></i
-            ><i class="icon-facebook fa fa-facebook"></i
-            ><i class="icon-twitter fa fa-twitter"></i>
+           <a href="#"> <i class="icon-instagram fa fa-instagram"></i></a>
+            <a href="#"> <i class="icon-facebook fa fa-facebook"></i></a>
+            <a href="#"><i class="icon-twitter fa fa-twitter"></i></a>
           </div>
         </div>
       </div>
