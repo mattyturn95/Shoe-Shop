@@ -87,15 +87,31 @@ input[type="submit"] {
   color: rgb(179, 49, 49);
   margin: 20px;
 }
+
+.icon-instagram:hover{
+    font-size: 60px;
+    transition: .7s;
+    margin:0px;
+}
 .icon-facebook {
   font-size: 50px;
   color: blue;
   margin: 20px;
 }
+.icon-facebook:hover{
+    font-size: 60px;
+    transition: .7s;
+    margin:0px;
+}
 .icon-twitter {
   font-size: 50px;
   color: rgb(130, 205, 230);
   margin: 20px;
+}
+.icon-twitter:hover{
+    font-size: 60px;
+    transition: .7s;
+    margin:0px;
 }
 
 .icon-bar {
