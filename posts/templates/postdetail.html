@@ -1,14 +1,12 @@
 {% extends "base.html" %} {% load static from staticfiles %} {% load bootstrap_tags %} {% block content %}
 
-
+<!-------Posts view-->
 <hr>
 <div class="container reviews-bgc">
 	<br>
 	<br>
 	<br>
 	<br>
-
-
 	<div align='center' class="row post-detail-style">
 		<div class=" post-detail-style col-xs-12 col-md-12">
 			<h3 class='post-detail-style'>{{ post.title }}</h3>
@@ -17,11 +15,8 @@
 			<p><span class="boldtext post-detail-style">Published on:</span> {{ post.published_date }} </p>
 			<p><span class="boldtext post-detail-style">Views:</span> {{post.views}}</p>
 			<p><span class="boldtext post-detail-style">Tag:</span> {{ post.tag }}</p>
-
-
 		</div>
 	</div>
-
 	<br>
 	<br>
 	<br>
