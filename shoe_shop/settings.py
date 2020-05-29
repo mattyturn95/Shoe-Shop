@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'accounts',
     'cart',
     'checkout',
-    
+    'posts',    
     'storages',
 ]
 
