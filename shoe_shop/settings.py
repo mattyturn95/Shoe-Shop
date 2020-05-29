@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-b5311394-9001-489d-a270-5a72d4b95350.ws-eu01.gitpod.io', 'localhost']
+    '8000-b5311394-9001-489d-a270-5a72d4b95350.ws-eu01.gitpod.io', 'localhost', 'final-ms-project-shoeshop.herokuapp.com']
 
 
 # Application definition
