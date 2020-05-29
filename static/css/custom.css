@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 body {
   font-family: Arial;
   padding-top: 0px;
@@ -147,6 +149,16 @@ input[type="submit"] {
 
 caption p {
   word-wrap: break-word;
+}
+
+.logo-brand{
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    
+}
+
+.navbar-inverse .navbar-brand {
+    color: #f0582a;
 }
 
 .row.row-flex {
