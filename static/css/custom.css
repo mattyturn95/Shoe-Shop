@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 
 body {
   font-family: Arial;
@@ -15,7 +15,7 @@ footer {
 }
 
 .navbar-inverse {
-    background-image: linear-gradient(#020d21, #020d21 60%, #020d21);
+  background-image: linear-gradient(#020d21, #020d21 60%, #020d21);
 }
 
 .footer-content {
@@ -26,18 +26,43 @@ footer {
   border-top: solid 1px white;
 }
 
-.checkout-text{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    margin-bottom: 20px;
+.post-detail-style {
+  color: white;
+  font-size: 30px;
 }
 
-.checkout-text-details{
-    text-align: center;
-    font-size: 15px;
-    color: white;
-    margin-bottom: 20px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+
+.checkout-text {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+
+.checkout-text-details {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
 }
 
 input,
@@ -52,10 +77,10 @@ textarea {
   width: 300px;
 }
 
-button{
-    border-radius: 30px;
-    width: 110px;
-    height: 40px;
+button {
+  border-radius: 30px;
+  width: 110px;
+  height: 40px;
 }
 
 button,
@@ -90,30 +115,30 @@ input[type="submit"] {
   margin: 20px;
 }
 
-.icon-instagram:hover{
-    font-size: 60px;
-    transition: .7s;
-    margin:0px;
+.icon-instagram:hover {
+  font-size: 60px;
+  transition: 0.7s;
+  margin: 0px;
 }
 .icon-facebook {
   font-size: 50px;
   color: blue;
   margin: 20px;
 }
-.icon-facebook:hover{
-    font-size: 60px;
-    transition: .7s;
-    margin:0px;
+.icon-facebook:hover {
+  font-size: 60px;
+  transition: 0.7s;
+  margin: 0px;
 }
 .icon-twitter {
   font-size: 50px;
   color: rgb(130, 205, 230);
   margin: 20px;
 }
-.icon-twitter:hover{
-    font-size: 60px;
-    transition: .7s;
-    margin:0px;
+.icon-twitter:hover {
+  font-size: 60px;
+  transition: 0.7s;
+  margin: 0px;
 }
 
 .icon-bar {
@@ -151,14 +176,13 @@ caption p {
   word-wrap: break-word;
 }
 
-.logo-brand{
-    font-family: 'Monoton', cursive;
-    font-size: 50px;
-    
+.logo-brand {
+  font-family: "Monoton", cursive;
+  font-size: 50px;
 }
 
 .navbar-inverse .navbar-brand {
-    color: #f0582a;
+  color: #f0582a;
 }
 
 .row.row-flex {
