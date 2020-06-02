@@ -32,3 +32,47 @@ When testing this project, to make a payment via the store, the below details sh
 * Expiry Date: Any future date.
 
 Anything not matching the above will receive an error.
+
+## UX/UI
+---
+### User Stories
+#### Site Users
+* I want the ability to browse the website on any device.
+* I want to be able to register an account on the website in order to gain further access.
+* I want the ability to buy Products. I want to be able to add them to my cart and the view my cart at any stage.
+* I want to be able to adjust the quantity of items in my cart or completely remove them.
+* I want to be able to logout of my account.
+* I want the ability to be able to search for a desired product from the search bar
+
+### Site Owner
+* I want the ability to add and remove products to the store from the admin panel.
+* I want the ability to add new products to the store and remove also via the admin panel.
+* I want all users (regardless of device) to have a positive user experience.
+* I want to be able to be contacted by a user should they deem it necessary.
+
+#### Current Features
+* Products Page - A page where thats displays the products in a list view.
+* Reviews - A section I created so that users can share htere experiences with the site.
+* User Accounts - Users are able to register and account on the site and login.
+
+#### Defensive Design
+Throughout the build of this site various defensive features were added to protect against malicious activity, and 
+also to stop things breaking.
+
+* A `{% csrf_token %}` was added on every form to prevent Cross Site Request Forgeries.
+
+* Included in a lot of the views and a lot of the templates are checks to ensure that te user has been 
+authenticated. This helps avoid somebody trying to login who is already logged in etc. But it also helps ensure 
+only registered users are accessing certain functions, such as commenting and purchasing.
+
+* Several checks were put in place within the forms and the models to ensure all requests were receiving all 
+the expected data. Adding 'required' to certain field helped ensure this was achieved and fields were not left blank.
+
+
+* 404 and 500 error pages were created so that the user received a custom error rather than receiving the 
+django standards.
+
+## Database
+I chose to make use of the Postgres DB as i saw that it had huge advantages compared to other databases.
+
+- Postgres needs to be added as an add-on in Heroku.
